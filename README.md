@@ -3,7 +3,7 @@
 
 Deploy Node-RED for regenfass on Railway.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/IaInHw?referralCode=h8bD3s)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Voi0Ra?referralCode=2_sIT9)
 
 ## ✨ Features
 
