@@ -1,0 +1,56 @@
+[
+    {
+        "id": "7d688d42fa0b94ca",
+        "type": "tab",
+        "label": "regenfass",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "63e8705de3a824a5",
+        "type": "inject",
+        "z": "7d688d42fa0b94ca",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 140,
+        "wires": [
+            [
+                "51108aef1078cf5b"
+            ]
+        ]
+    },
+    {
+        "id": "51108aef1078cf5b",
+        "type": "debug",
+        "z": "7d688d42fa0b94ca",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 140,
+        "wires": []
+    }
+]
